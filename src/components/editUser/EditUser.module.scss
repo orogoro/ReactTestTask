@@ -1,0 +1,197 @@
+@import "../../styles/variables.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0 10px;
+}
+
+.title {
+  color: $textColor;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+
+  background-color: $formBackgroundColor;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+
+  & + & {
+    margin-top: 20px;
+  }
+}
+
+.input {
+  width: 380px;
+  padding: 14px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  background-color: transparent;
+  border: 1px solid $borderColor;
+  border-radius: 4px;
+
+  &:focus {
+    outline: none;
+
+    &::placeholder {
+      color: transparent;
+    }
+  }
+}
+
+.errorInput {
+  border: 1px solid $errorInputColor;
+}
+
+.opacity {
+  opacity: 0;
+}
+
+.lable {
+  display: block;
+  position: absolute;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  top: -7px;
+  left: 0;
+  color: $lableColor;
+  background-color: $formBackgroundColor;
+  padding: 0 4px;
+  margin-left: 12px;
+}
+
+.error {
+  color: $errorInputColor;
+}
+
+.containerRadio {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  margin: 25px 0 10px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: $textColor;
+}
+
+.spanRadio {
+  margin-left: 10px;
+}
+
+.lableRadio {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.87);
+
+  & + & {
+    margin-top: 5px;
+  }
+}
+
+.inputRadio {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+.lableSpan {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #d0cfcf;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+}
+
+.lableRadio > input:not(:disabled):active + span::before {
+  background-color: #b3d7ff;
+  border: 1px solid #00bdd3;
+}
+
+.lableRadio > input:focus + span::before {
+  box-shadow: 0 0 0 0.2rem #00bdd380;
+}
+
+.lableRadio > input:focus:not(:checked) + span::before {
+  border: 1px solid #00bdd3;
+}
+
+/* стили для радиокнопки, находящейся в состоянии checked */
+.lableRadio > input:checked + span::before {
+  border: 1px solid #00bdd3;
+  background-color: #fff;
+  background-image: url(../../images/Ellipse.svg);
+}
+
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.lableRadio > input:disabled + span::before {
+  background-color: #e9ecef;
+}
+
+.button {
+  padding: 10px 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+
+  font-weight: 500;
+  font-size: 16px;
+
+  background-color: $blueColor;
+  color: $whiteColor;
+  margin-top: 10px;
+  transition: $transition;
+  box-shadow: 0 1px 3px $textColor;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: $activeLinkColor;
+  }
+}
+
+.disable {
+  background-color: $lableColor;
+
+  &:hover {
+    background-color: $lableColor;
+  }
+}

@@ -1,0 +1,110 @@
+@import "../../styles/variables.scss";
+
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  background-color: $headerBackgroundColor;
+  z-index: 1000;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $desktop;
+  padding: 20px;
+  border-bottom: 1px solid $lightColor;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  position: relative;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  text-decoration: none;
+  color: $lightColor;
+  transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  // padding-bottom: 5px;
+
+  &:hover {
+    color: $activeLinkColor;
+  }
+  & + & {
+    margin-left: 30px;
+  }
+}
+
+.active {
+  color: $activeLinkColor;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: $activeLinkColor;
+    border-radius: 2px;
+  }
+}
+
+// .singIn {
+//   color: $orangeColor;
+//   background-color: transparent;
+//   position: relative;
+//   border: none;
+//   transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+//   text-decoration: none;
+
+//   &::after {
+//     content: "";
+//     display: inline-block;
+//     width: 0;
+//     height: 1px;
+//     background: $hoverOrangeColor;
+//     position: absolute;
+//     bottom: 4px;
+//     transition: 0.3s;
+//     opacity: 0;
+//     left: 0px;
+//     bottom: 0px;
+//   }
+
+//   &:hover::after {
+//     width: 100%;
+//     opacity: 1;
+//   }
+
+//   &:hover {
+//     color: $hoverOrangeColor;
+//   }
+// }
+
+.activeLink {
+  color: $hoverOrangeColor;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: $hoverOrangeColor;
+    position: absolute;
+    bottom: 4px;
+    transition: 0.3s;
+    opacity: 1;
+    left: 0px;
+    bottom: 0px;
+  }
+}

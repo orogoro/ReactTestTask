@@ -1,0 +1,68 @@
+@import "../../styles/variables.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  color: $textColor;
+  border: 1px solid $secondaryTextColor;
+  border-top: 0;
+  width: 100%;
+
+  transition: $transition;
+
+  cursor: pointer;
+
+  &:last-child {
+    border-radius: 0 0 5px 5px;
+  }
+
+  &:hover {
+    background-color: $secondaryTextColor;
+  }
+}
+
+.text {
+  position: relative;
+  width: 400px;
+  font-size: 17px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  &:first-child {
+    width: 250px;
+    font-weight: 500;
+  }
+
+  & + & {
+    margin-left: 50px;
+  }
+  &:nth-child(n + 3) {
+    width: 100px;
+    margin-left: 70px;
+  }
+
+  &::after {
+    content: "";
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    border-radius: 5px;
+    background-color: $activeLinkColor;
+  }
+}
+
+.status {
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: $errorColor;
+}
+
+.active {
+  background-color: $activeColor;
+}

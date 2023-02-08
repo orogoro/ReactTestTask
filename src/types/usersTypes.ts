@@ -1,20 +1,26 @@
-interface MoviesItem {
-  poster_path: string | null;
-  adult: boolean;
-  overview: string;
-  release_date: string;
-  genre_ids: number[];
+interface User {
+  email: string;
+  gender: string;
+  name: string;
+  status: string;
   id: number;
-  original_title: string;
-  original_language: string;
-  title: string;
-  backdrop_path: string | null;
-  popularity: number;
-  vote_count: number;
-  video: boolean;
-  vote_average: number;
-  total_pages: number;
-  total_results: number;
 }
 
-export { MoviesItem };
+interface Pagination {
+  limit: number;
+  links: {
+    previous: null;
+    current: string;
+    next: string;
+  };
+  page: number;
+  pages: number;
+  total: number;
+}
+
+interface UsersPromise {
+  data: User[];
+  meta: { pagination: Pagination };
+}
+
+export { User, Pagination, UsersPromise };

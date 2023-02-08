@@ -2,20 +2,22 @@ import { lazy, Suspense } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 
-import { Container } from "./";
+import { Container, Navigation, Loader } from "./";
 
 const Home = lazy(() => import("../pages/HomePage"));
+const Users = lazy(() => import("../pages/UsersPage"));
+const EditUser = lazy(() => import("../pages/EditUserPage"));
 
 const App: React.FC = () => {
   return (
     <>
-      {/* <Navigation /> */}
+      <Navigation />
       <Container>
-        <Suspense fallback={"loading..."}>
+        <Suspense fallback={<Loader />}>
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="users" element={<Movies />} /> */}
-            {/* <Route path="edit/:userId" element={<MovieDetails />} /> */}
+            <Route path="users" element={<Users />} />
+            <Route path="edit/:userId" element={<EditUser />} />
 
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
