@@ -8,6 +8,7 @@ import Paginate from "./paginate/Paginate";
 import ModalLoader from "./modalLoader/ModalLoader";
 import Loader from "./loader/Loader";
 import Filter from "./filter/Filter";
+import Home from "./home/Home";
 
 export {
   Container,
@@ -20,4 +21,5 @@ export {
   ModalLoader,
   Loader,
   Filter,
+  Home,
 };

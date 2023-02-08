@@ -1,4 +1,3 @@
-// import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import styles from "./Navigation.module.scss";
@@ -29,34 +28,7 @@ const Navigation: React.FC = () => {
             Users
           </NavLink>
         </div>
-
-        {/* <div className={styles.container}>
-          <NavLink
-            to="/Login"
-            className={({ isActive }) =>
-              [styles.link, styles.singIn, isActive ? styles.activeLink : null]
-                .filter(Boolean)
-                .join(" ")
-            }
-          >
-            Login
-          </NavLink>
-        </div> */}
-
-        {/* <div className={styles.burger}>
-          <button
-            className={styles.button}
-            onClick={() => setModalActive(true)}
-          >
-            <img
-              className={styles.imgB}
-              src={mobileBurger}
-              alt="mobileBurger"
-            />
-          </button>
-        </div> */}
       </nav>
-      {/* <MobileModal active={modalActive} setActive={setModalActive} /> */}
     </header>
   );
 };
