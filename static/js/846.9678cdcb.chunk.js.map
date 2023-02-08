@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/846.9678cdcb.chunk.js","mappings":"iIAMA,UAJ2B,WACzB,OAAO,SAAC,KAAI,GACd,C","sources":["pages/HomePage.tsx"],"sourcesContent":["import { Home } from \"../components\";\n\nconst HomePage: React.FC = () => {\n  return <Home />;\n};\n\nexport default HomePage;\n"],"names":[],"sourceRoot":""}

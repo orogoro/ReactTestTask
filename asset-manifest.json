@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/ReactTestTask/static/css/main.ffac6af8.css",
-    "main.js": "/ReactTestTask/static/js/main.84921dcf.js",
-    "static/js/846.09564a24.chunk.js": "/ReactTestTask/static/js/846.09564a24.chunk.js",
-    "static/js/308.5153188a.chunk.js": "/ReactTestTask/static/js/308.5153188a.chunk.js",
-    "static/js/177.106e3e73.chunk.js": "/ReactTestTask/static/js/177.106e3e73.chunk.js",
+    "main.css": "/ReactTestTask/static/css/main.9afc9bf4.css",
+    "main.js": "/ReactTestTask/static/js/main.8236c45a.js",
+    "static/js/846.9678cdcb.chunk.js": "/ReactTestTask/static/js/846.9678cdcb.chunk.js",
+    "static/js/308.9e3ad4fc.chunk.js": "/ReactTestTask/static/js/308.9e3ad4fc.chunk.js",
+    "static/js/177.d1415791.chunk.js": "/ReactTestTask/static/js/177.d1415791.chunk.js",
+    "static/media/iconUser5.png": "/ReactTestTask/static/media/iconUser5.166a7b21df15b9ad4287.png",
+    "static/media/iconUser7.png": "/ReactTestTask/static/media/iconUser7.38af26f44bb79d4f1e87.png",
+    "static/media/iconUser2.png": "/ReactTestTask/static/media/iconUser2.4fad0bb50e1dab903f0a.png",
+    "static/media/iconUser1.png": "/ReactTestTask/static/media/iconUser1.e54f997182b1249337d6.png",
+    "static/media/iconUser6.png": "/ReactTestTask/static/media/iconUser6.bfd2c1647a0fdf97d949.png",
+    "static/media/iconUser4.png": "/ReactTestTask/static/media/iconUser4.eede901e4335a498b6f9.png",
     "index.html": "/ReactTestTask/index.html",
     "static/media/Ellipse.svg": "/ReactTestTask/static/media/Ellipse.6f75dc4f9a17d8a8cc36.svg",
-    "main.ffac6af8.css.map": "/ReactTestTask/static/css/main.ffac6af8.css.map",
-    "main.84921dcf.js.map": "/ReactTestTask/static/js/main.84921dcf.js.map",
-    "846.09564a24.chunk.js.map": "/ReactTestTask/static/js/846.09564a24.chunk.js.map",
-    "308.5153188a.chunk.js.map": "/ReactTestTask/static/js/308.5153188a.chunk.js.map",
-    "177.106e3e73.chunk.js.map": "/ReactTestTask/static/js/177.106e3e73.chunk.js.map"
+    "main.9afc9bf4.css.map": "/ReactTestTask/static/css/main.9afc9bf4.css.map",
+    "main.8236c45a.js.map": "/ReactTestTask/static/js/main.8236c45a.js.map",
+    "846.9678cdcb.chunk.js.map": "/ReactTestTask/static/js/846.9678cdcb.chunk.js.map",
+    "308.9e3ad4fc.chunk.js.map": "/ReactTestTask/static/js/308.9e3ad4fc.chunk.js.map",
+    "177.d1415791.chunk.js.map": "/ReactTestTask/static/js/177.d1415791.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffac6af8.css",
-    "static/js/main.84921dcf.js"
+    "static/css/main.9afc9bf4.css",
+    "static/js/main.8236c45a.js"
   ]
 }

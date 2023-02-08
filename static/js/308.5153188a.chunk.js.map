@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/308.5153188a.chunk.js","mappings":"iIAMA,UAJ4B,WAC1B,OAAO,SAAC,IAAK,GACf,C","sources":["pages/UsersPage.tsx"],"sourcesContent":["import { Users } from \"../components\";\n\nconst UsersPage: React.FC = () => {\n  return <Users />;\n};\n\nexport default UsersPage;\n"],"names":[],"sourceRoot":""}
