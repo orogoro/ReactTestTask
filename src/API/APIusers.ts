@@ -1,8 +1,6 @@
 import axios from "axios";
 import { usersTypes } from "../types";
 
-// import { usersTypes } from "../types";
-
 const TOKEN =
   "2059663204eaaea41f53c585f73a6c417c220c648103494ec75901fee6493bef";
 

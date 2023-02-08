@@ -33,7 +33,6 @@
   text-decoration: none;
   color: $lightColor;
   transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  // padding-bottom: 5px;
 
   &:hover {
     color: $activeLinkColor;
@@ -58,38 +57,6 @@
     border-radius: 2px;
   }
 }
-
-// .singIn {
-//   color: $orangeColor;
-//   background-color: transparent;
-//   position: relative;
-//   border: none;
-//   transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-//   text-decoration: none;
-
-//   &::after {
-//     content: "";
-//     display: inline-block;
-//     width: 0;
-//     height: 1px;
-//     background: $hoverOrangeColor;
-//     position: absolute;
-//     bottom: 4px;
-//     transition: 0.3s;
-//     opacity: 0;
-//     left: 0px;
-//     bottom: 0px;
-//   }
-
-//   &:hover::after {
-//     width: 100%;
-//     opacity: 1;
-//   }
-
-//   &:hover {
-//     color: $hoverOrangeColor;
-//   }
-// }
 
 .activeLink {
   color: $hoverOrangeColor;

@@ -6,7 +6,6 @@ import { toast } from "react-toastify";
 import { patchUserRequest, getUser } from "../../API/APIusers";
 
 import "react-toastify/dist/ReactToastify.css";
-
 import styles from "./EditUser.module.scss";
 
 type FormValues = {
