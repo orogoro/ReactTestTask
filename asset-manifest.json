@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/ReactTestTask/static/css/main.43599060.css",
-    "main.js": "/ReactTestTask/static/js/main.26702f8a.js",
+    "main.css": "/ReactTestTask/static/css/main.ffac6af8.css",
+    "main.js": "/ReactTestTask/static/js/main.84921dcf.js",
     "static/js/846.09564a24.chunk.js": "/ReactTestTask/static/js/846.09564a24.chunk.js",
+    "static/js/308.5153188a.chunk.js": "/ReactTestTask/static/js/308.5153188a.chunk.js",
+    "static/js/177.106e3e73.chunk.js": "/ReactTestTask/static/js/177.106e3e73.chunk.js",
     "index.html": "/ReactTestTask/index.html",
-    "main.43599060.css.map": "/ReactTestTask/static/css/main.43599060.css.map",
-    "main.26702f8a.js.map": "/ReactTestTask/static/js/main.26702f8a.js.map",
-    "846.09564a24.chunk.js.map": "/ReactTestTask/static/js/846.09564a24.chunk.js.map"
+    "static/media/Ellipse.svg": "/ReactTestTask/static/media/Ellipse.6f75dc4f9a17d8a8cc36.svg",
+    "main.ffac6af8.css.map": "/ReactTestTask/static/css/main.ffac6af8.css.map",
+    "main.84921dcf.js.map": "/ReactTestTask/static/js/main.84921dcf.js.map",
+    "846.09564a24.chunk.js.map": "/ReactTestTask/static/js/846.09564a24.chunk.js.map",
+    "308.5153188a.chunk.js.map": "/ReactTestTask/static/js/308.5153188a.chunk.js.map",
+    "177.106e3e73.chunk.js.map": "/ReactTestTask/static/js/177.106e3e73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43599060.css",
-    "static/js/main.26702f8a.js"
+    "static/css/main.ffac6af8.css",
+    "static/js/main.84921dcf.js"
   ]
 }

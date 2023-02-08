@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/177.106e3e73.chunk.js","mappings":"iIAMA,UAJ+B,WAC7B,OAAO,SAAC,KAAQ,GAClB,C","sources":["pages/EditUserPage.tsx"],"sourcesContent":["import { EditUser } from \"../components\";\n\nconst EditUserPage: React.FC = () => {\n  return <EditUser />;\n};\n\nexport default EditUserPage;\n"],"names":[],"sourceRoot":""}
